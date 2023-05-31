@@ -1,0 +1,1 @@
+# imagemagick-noritor-nestjs
