@@ -1,4 +1,11 @@
 {
   "name": "imagemagick-noritor-nestjs",
-  "packageManager": "yarn@3.5.1"
+  "packageManager": "yarn@3.5.1",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "pn": "yarn workspace @apps/pure-node",
+    "pn:start": "yarn pn build && yarn pn start"
+  }
 }
